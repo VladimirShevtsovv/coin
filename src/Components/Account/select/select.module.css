@@ -1,0 +1,52 @@
+.tabs__container{
+    display: flex;
+    position: relative;
+}
+
+.tabs__list {
+    position: relative;
+    top: 5px;
+    display: flex;
+    list-style: none;
+    align-items: flex-start;
+    margin: 0;
+    background: #FFFFFF;
+    padding-left: 10px;
+}
+
+.tabs__list_item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 16px;
+    cursor: pointer;
+    transition: 0.2s linear;
+    border-radius: 7px;
+}
+
+.tabs__list_item:hover{
+    background-color:  #A0C3FF;
+}
+
+.tabs__list_itemSelected{
+    background-color: #A0C3FF;
+}
+
+.tabs__heading {
+    position: relative;
+    top: 5px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 24px;
+    padding: 10px 16px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #116ACC;
+    background: #FFFFFF;
+    border-radius: 7px;
+}
+

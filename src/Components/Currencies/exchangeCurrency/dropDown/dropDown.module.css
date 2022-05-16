@@ -1,0 +1,39 @@
+.list__container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    max-resolution: 0;
+    padding: 0;
+    list-style: none;
+    padding: 10px 0;
+    z-index: 10;
+    background: white;
+    border-radius: 7px;
+    width: 134px;
+    justify-self: flex-end;
+    margin: 0;
+    margin-left: 20px;
+    border: 1px solid #9CA3AF;
+}
+
+.list__container_hidden {
+    display: none;
+}
+
+.list__container_item {
+    text-align: start;
+    font-size: 16px;
+    line-height: 24px;
+    color: #374151;
+    letter-spacing: -0.01em;
+    padding: 5px 16px;
+}
+
+.list__container_item:hover {
+    background: #A0C3FF;
+    cursor: pointer;
+}
+
+.list__container_item_hidden {
+    display: none;
+}

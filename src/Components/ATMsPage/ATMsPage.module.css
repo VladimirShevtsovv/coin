@@ -1,0 +1,19 @@
+.ATMs__container {
+    flex-direction: column;
+    padding: 0 50px;
+    align-items: flex-start;
+}
+
+.ATMs__mapContainer {
+    height: 728px;
+    width: 100%;
+}
+
+.ATMs__heading {
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    margin-bottom: 56px;
+}

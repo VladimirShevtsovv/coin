@@ -1,0 +1,84 @@
+
+.main__container{
+    padding: 0 50px;
+}
+
+.details__topContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 58px;
+}
+
+.details__heading {
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.details__heading_containr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+}
+
+.details__container_balanceAndButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.details__balance_container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    font-weight: bold;
+}
+
+.details__balance{
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    font-weight: normal;
+}
+.details__button_back {
+    width: 210px;
+    height: 20px;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 16px 24px;
+    background: #116ACC;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.1s linear;
+}
+
+.details__button_back:hover {
+    background: rgba(17, 106, 204, 0.7);
+}
+
+.details__button_back:active {
+    background: rgba(11, 74, 143, 1)
+}
+
+
+.details__container_dynamicAndNew{
+    display: flex;
+    justify-content: space-between;
+}
+
+.details__containerMain{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,104 @@
+.bar {
+
+    background: #116ACC;
+}
+
+.bar:not(:last-child) {
+    margin-right: 28px;
+}
+
+.bar__container {
+    height: 165px;
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid black;
+    margin: 0;
+    margin-bottom: 7px;
+}
+
+.month__list {
+    list-style: none;
+    display: flex;
+
+    margin: 0;
+}
+
+.month__list_item {
+    width: 50px;
+
+}
+
+.month__list_item:not(:last-child) {
+    margin-right: 28px;
+}
+
+.container__barAndMonth {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+.dinamyc__container {
+    display: flex;
+    height: 243px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 20px 50px 25px 0px;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    transition: 0.1s linear;
+}
+
+.dinamyc__container:hover {
+    transform: scale(1.02);
+}
+
+.dinamyc__container_emptyState {
+    width: 580px;
+    display: flex;
+    height: 243px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 20px 50px 20px 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6B7280;
+}
+
+.dinamyc__heading {
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+}
+
+.dinamyc__containerBarsAndMaxMin {
+    display: flex;
+}
+
+.container__maxMin {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 25px;
+    align-items: flex-start;
+    font-weight: bold;
+}
+
+.linc__container {
+    color: black;
+    text-decoration: none;
+    transition: 0.1s linear;
+
+}
+
+.linc__container:hover {
+    transform: scale(1.02);
+}

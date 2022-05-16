@@ -1,0 +1,197 @@
+.exchangeCurrency__container {
+    padding: 50px 50px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: calc(100% - 100px);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.exchangeCurrency__form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.exchangeCurrency__form_leftContainer{
+    display: flex;
+    width: calc(100%);
+    flex-direction: column;
+}
+.exchangeCurrency__form_leftContainer_item{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.exchangeCurrency__form_leftContainer_item_nameCurency{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.exchangeCurrency__heading {
+    margin: 0;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    margin-bottom: 25px;
+}
+
+.exchangeCurrency__containerInputsAndButton {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.exchangeCurrency__button {
+    width: 120px;
+    height: 42px;
+    background: #116ACC;
+    border-radius: 7px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    align-self: flex-end;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.exchangeCurrency__lables {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+}
+
+.exchangeCurrency__inputsNameCurrensie {
+    width:104px;
+    height: 20px;
+    margin: 0 20px;
+    border: 1px solid #9CA3AF;
+    border-radius: 7px;
+    padding: 10px 15px;
+}
+
+
+
+.exchangeCurrency__inputAmount {
+    width: 70%;
+    padding: 10px 15px;
+    height: 20px;
+    border: 1px solid #9CA3AF;
+    border-radius: 7px;
+    margin-left: 8px;
+
+}
+
+.exchangeCurrency__error_messange {
+    top: 45px;
+    right: 0;
+    display: flex;
+    width: 135px;
+    position: absolute;
+    color: #BA0000;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.exchangeCurrency__error_messange_inputAmount{
+    top: 45px;
+    right: 25px;
+    display: flex;
+    width: 300px;
+    position: absolute;
+    color: #BA0000;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px
+}
+
+.exchangeCurrency__error_messange_hidden{
+    display: none;
+}
+
+.exchangeCurrency__container_InputAndErro{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.exchangeCurrency__error_server{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    color: #BA0000;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+}
+.exchangeCurrency__containernputAndError{
+    position: relative;
+
+}
+
+.exchangeCurrency__nameOfCurrency{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    margin-right: 10px;
+    min-width: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.exchangeCurrency__valueOfCurrency{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.exchangeCurrency__list_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+
+}
+
+.exchangeCurrency__borderBottomDashed {
+    width: 100%;
+    border-bottom: 1px dotted black;
+    position: relative;
+    top: -2px;
+}
+.exchangeCurrency__error_messange_button{
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #BA0000;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.exchangeCurrency__containerButtonAndError{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}

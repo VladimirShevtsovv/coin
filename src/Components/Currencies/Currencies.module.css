@@ -1,0 +1,26 @@
+.currencies__heading {
+    margin: 0;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    margin-bottom: 25px;
+}
+
+.currencies__container {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.currencies__container_left {
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+}
+
+.currencies__container_main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
